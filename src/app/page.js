@@ -31,7 +31,7 @@ export default function Home() {
     <div>
       <Header />
       <p>Hello React</p>
-      <Counter />
+      <Counter initCount='0'/>
     </div>
   );
 }
