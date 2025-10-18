@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Counter from "./component/counter";
 
 function Header(){
   return (
@@ -11,18 +12,18 @@ function Header(){
   )
 }
 
-function Counter(){
-  const [count, setCount] = useState(0);
+//function Counter(){
+  //const [count, setCount] = useState(0);
 
-  return (
-    <div>
-      {count}
-      <button type='button' onClick={() => setCount(count + 1)}>Increase Counter</button>
-      <button type='button' onClick={() => setCount(count - 1)}>Decrease Counter</button>
-      <button type='button' onClick={() => setCount(0)}>Reset Counter</button>
-    </div>
-  );
-}
+  //return (
+    //<div>
+      //{count}
+      //<button type='button' onClick={() => setCount(count + 1)}>Increase Counter</button>
+      //<button type='button' onClick={() => setCount(count - 1)}>Decrease Counter</button>
+      //<button type='button' onClick={() => setCount(0)}>Reset Counter</button>
+    //</div>
+  //);
+//}
 
 
 export default function Home() {
